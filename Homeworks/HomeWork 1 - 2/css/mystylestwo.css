@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+article{
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+p{ 
+    margin: 10px;
+    padding: 10px;
+}
+
+.back{
+    margin-left: 10px;
+}

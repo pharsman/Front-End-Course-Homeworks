@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+    <header></header>
+    <main>        
+        <div class="rect">
+            <h2>შეუკვეთე პროდუქტი დღესვე</h2>
+        </div>
+
+        <form method="post" autocomplete="off" action="action.html">
+            <input type="text" name="fname" id="fname" placeholder="სახელი">
+            <input type="text" name="lname" id="lname" placeholder="გვარი">
+            <input type="number" name="numb" id="numb" placeholder="ტელეფონის ნომერი">
+            <label for="msg"><strong>გთხოვთ მიუთითოთ ზუსტი მისამართი</strong> </label>
+            <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+             <label for="radio"> <strong>აირჩიეთ გადახდის მეთოდი</strong> </label>
+             <br>
+            <input  type="radio" name="pay" id="pay1">
+            <label class="card" for="pay1"><strong>  ბარათით გადახდა</strong></label>
+            <input type="radio" name="pay" id="pay2">
+            <label class="cash" for="pay2"><strong> ქეშით გადახდა </strong></label>
+            <br>
+        <input type="submit" name="sub" id="sub" value="შეკვეთის გაფორმება">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

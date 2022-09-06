@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.active{
+    border-bottom: 2px solid #000000 ;
+}
+
+.return{
+    opacity: 0.5;
+    font-size: 12px;
+    margin-left: 45px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+ul li a{
+    color: #000000;
+}
+
+li{
+   
+   margin-left: 20px; 
+    float: left;
+    font-size: 18px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #C4C4C4;
+    padding: 50px;
+   
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D;
+    overflow: hidden;
+}
+
+.slider img{
+    opacity: 0.8;
+    width: 100%;
+}
+.statia{
+    width: 457px;
+    height: 200px;
+    margin-top: 34px;
+    
+    float: left;
+}
+
+article{
+    width: 85%;
+    margin:0 auto;
+    
+}
+
+.img{
+    width: 457px;
+    height: 200px;
+    overflow: hidden;
+    opacity: 0.5;
+    
+}
+
+.img img{
+    width: 100%;  
+}
+
+
+.gagrdzeleba{
+    margin-top: 16px;
+    opacity: 0.4;
+}
+
+.poni{
+    background-color: #FF9900;
+    padding: 15px;
+}
+
+.meore{
+    background-color: #FFC700;
+}
+
+.mesame{
+    background-color: #FFE600;
+    height: 180px;
+}
+
+footer p{
+    margin: 0 auto;
+    clear:both;
+    width: 90%;
+    padding-top: 200px;
+    margin-right: 45px;
+    padding-bottom: 30px;
+}
+
+.copy{
+    margin: 0 auto;
+    clear:both;
+    width: 90%;
+    padding-top: 80px;
+    margin-right: 45px;
+    padding-bottom: 30px;
+}
+
+
+.srulistatia1{
+    width: 1400px;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #FF9900;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.srulistatia2{
+    width: 1400px;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #FFC700;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.srulistatia3{
+    width: 1400px;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #FFE600;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.konk{
+    font-size: 14px;
+
+}
+
+.suratebi{
+    margin-top: 75px;
+    width: 457px;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+

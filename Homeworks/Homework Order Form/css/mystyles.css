@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rect{
+    background-color: #021010;
+    text-align: center;
+    width: 750px;
+    border-radius: 20px;
+    padding: 24px;
+    margin-top: 60px;
+    margin-left: 42%;
+}
+
+h2{
+    font-size: 36px;
+    color: #ffffff;
+}
+
+form{
+    width: 750px;
+    height: 710px;
+    margin-left: 42%;
+    margin-top: 64px;
+}
+
+::-webkit-input-placeholder{
+    color: #000000;
+    font-size: 20px;
+}
+
+::-moz-placeholder{
+    color: #000000;
+    font-size: 20px;
+}
+
+:-ms-input-placeholder{
+    color: #000000;
+    font-size: 20px;
+}
+
+::-ms-input-placeholder{
+    color: #000000;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: #000000;
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input{
+    font-size: 20px;
+    margin-top: 42px;
+    outline: none;
+    background-color: #ffffff79;
+}
+
+#fname{
+    padding: 15px;
+    width: 750px;
+    height: 74px;
+}
+
+#lname{
+    padding: 15px;
+    width: 750px;
+    height: 74px;
+}
+
+#numb{
+    padding: 15px;
+    width: 750px;
+    height: 74px;
+    margin-bottom:20px
+}
+
+
+#msg{
+    padding: 15px;
+    margin-top: 22px;
+    width: 750px;
+    height: 152px;
+    background-color: #ffffff76;
+    font-size: 20px;
+    margin-bottom: 18px;
+    outline: none;
+}
+
+label{
+    font-size: 14px;
+}
+
+
+#pay1{
+    font-weight:bolder;
+    font-size: 50px;
+    margin-left: 100px
+}
+
+#pay2{
+    font-weight:bolder;
+    font-size: 50px;
+    margin-left: 100px
+}
+
+.card{
+    font-size: 20px;
+  
+
+}
+
+.cash{
+    font-size: 20px;
+}
+
+#sub{
+    margin-top: 40px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 100px;
+    background-color: #01AF8C;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    text-align: center;
+}
+
+#sub:hover{
+    cursor: pointer;
+}
+
+.meore{
+    height: 400px;
+}
+
+.meore h2{
+    margin-top: 50px;
+}
+
+
+.meore p{
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+#sale{
+    width: 750px;
+    height: 70px;
+    margin-bottom: 100px;
+    background-color: #01AF8C;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 42%;
+}
+
+#sale:hover{
+    cursor: pointer;
+}

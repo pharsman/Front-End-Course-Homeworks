@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.374);
+}
+
+h2{
+    padding-left: 15px;
+    padding-top: 10px;
+    
+}
+
+h3{
+    padding-left: 40px;
+    padding-bottom: 5px;
+    margin-top:20px;
+    
+}
+
+p{
+    color:rgb(129, 10, 10);
+    padding-left: 10px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.last{
+    margin-bottom: 20px;
+}
+
+.photo{
+    margin: 20px;
+    
+}
+
+.gadasvla{
+    color:rgb(31, 111, 240);
+    margin-left: 20px;
+}

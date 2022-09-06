@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="სამყაროს წარმოშობა, ღმერთები, ცხრა სამყარო, რაგნაროკი."> 
+    <meta name="keyworks" content="სამყაროს წარმოშობა, ღმერთები, ცხრა სამყარო, რაგნაროკი.">
+    <meta property="og:title" content="სკანდინავიური მითოლოგია" />
+    <meta name="twitter:card" content="სკანდინავიური მითოლოგია">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="odin-favicon.ico">
+    <title>სკანდინავიური მითოლოგია</title>
+</head>
+<body>
+        <h3 class="las"> <a href="index.html">მთავარ გვერდზე დაბრუნება</a> </h3>
+        <div class="apr">
+            <p>მოგვწერეთ თქვენი აზრი ამ სტატიასთან დაკავშირებით</p>
+            <p>თუ გსურთ კიდევ სხვა საინტერესო სტატიები, გთხოვთ დააფიქსიროთ თქვენი აზრი, ჩვენ აუცილებლად გავითვალისწინებთ</p>
+        </div>
+        <div class="ty" id="ty"><p>გმადლობთ ! <br> თქვენი შეტყობინება მიღებულია</p></div>
+        <button id="button" class="open-button" onclick="openForm()">&dArr; &dArr; &dArr;</button>
+        <div class="chat-popup" id="myForm">
+            <form class="form-container">
+              <h1>ჩატი</h1>
+              <label for="msg"><b>შეტყობინება</b></label>
+              <textarea id="area" placeholder="დაწერეთ შეტყობინება.." name="msg" required ></textarea>
+              <button type="submit" class="btn">გაგზავნა</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">დახურვა</button>
+            </form>
+          </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
